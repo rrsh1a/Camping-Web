@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/fonts.css" />
+    <link rel="stylesheet" href="style/grid.css" />
+    <link rel="stylesheet" href="style/app.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="navRetrentive">
+            <a href="#" class="appLogo">
+              <img src="images/svgs/logo.svg" class="appLogoImg" />
+            </a>
+            <!-- ul.desktopMenu>(li.desktopMenuItem>a.desktopMenuLink)*8 -->
+            <ul class="desktopMenu">
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink desktopMenuLinkActive"
+                  >Home</a
+                >
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Destination</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Near me</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Events</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Blog</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Gallery</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">About</a>
+              </li>
+              <li class="desktopMenuItem">
+                <a href="#" class="desktopMenuLink">Contact us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mobileNavMenu">
+            <h2 class="mobileNavMenuTitle">Camping Website</h2>
+            <ul class="mobileMenu">
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Home</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Destination</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Near me</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Events</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Blog</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Gallery</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">About</a>
+              </li>
+              <li class="mobileMenuItem">
+                <a href="#" class="mobileMenuLink">Contact us</a>
+              </li>
+            </ul>
+            <div class="mobileNavMenuLinks">
+              <a href="#" class="mobileNavMenuLink">Sign up</a>
+              <a href="#" class="mobileNavMenuLink">Sign in</a>
+            </div>
+          </div>
+          <div class="desktopNavLinks">
+            <a href="#" class="desktopNavLink">Sign up</a>
+            <a href="#" class="desktopNavLink desktopNavLinkBorder">Sign in</a>
+          </div>
+          <div class="navBtn">
+            <span class="navBtnLine"></span>
+          </div>
+        </nav>
+        <div class="headerContent">
+          <h1 class="headerContentTitle">Find Yourself Outside.</h1>
+          <p class="headerContentDescription">
+            Book unique camping experiences on over 300,000 campsites, cabins,
+            RV parks, public parks and more.
+          </p>
+          <a href="#" class="btn headerContentLink">Discover</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="services">
+          <!-- div.service*4>(img.serviceImg)(h2.serviceTitle)(p.serviceDescription) -->
+          <div class="service">
+            <img src="images/svgs/fire.svg" class="serviceImg" />
+            <h2 class="serviceTitle">Camping & Day Use</h2>
+            <p class="serviceDescription">
+              Return to your favorite spot or discover a new one that’s right
+              for you.
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/svgs/tickets.svg" class="serviceImg" />
+            <h2 class="serviceTitle">Tours & Tickets</h2>
+            <p class="serviceDescription">
+              Reserve tours and tickets to participate in events.
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/svgs/paper.svg" class="serviceImg" />
+            <h2 class="serviceTitle">Permits</h2>
+            <p class="serviceDescription">
+              Obtain permits for access to high-demand locations.
+            </p>
+          </div>
+          <div class="service">
+            <img src="images/svgs/fish.svg" class="serviceImg" />
+            <h2 class="serviceTitle">Recreation Activities</h2>
+            <p class="serviceDescription">
+              Find the best spots for hunting, fishing & recreational shooting.
+            </p>
+          </div>
+        </section>
+        <!-- start locations -->
+        <section class="locations">
+          <img src="images/svgs/destination.svg" class="locationsLogo" />
+          <h2 class="locationsTitle">Explore Destinations & Activities</h2>
+          <div class="locationsPlaces">
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image1.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">The Stuga</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image2.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Tiny Cabin in the mountains</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image3.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Dragonfly Tiny Cabin</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image4.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Trickle Creek Ranch</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image5.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">The Hermitage Cabin</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image6.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Kindred Spirits Cabin</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image7.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">The Summit Cabin</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image8.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Luxury Tiny Beach Cabin</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image9.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Ninovan on the Shore</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image10.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Barrier island elevated tent</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image11.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">The Tree House</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+            <div class="location">
+              <div class="locationBanner">
+                <img src="images/image12.jpg" class="locationImg" />
+                <div class="locationLike">
+                  <img src="images/svg-icons/heart.svg" />
+                </div>
+                <div class="locationPrice">
+                  <p class="locationPriceText">$36/night</p>
+                </div>
+              </div>
+              <h3 class="locationTitle">Red Lifeguard Stand</h3>
+              <p class="locationDescription">
+                Book unique camping experiences on over 300,000 campsites.
+              </p>
+              <a href="#" class="btn locationLink">Read More</a>
+            </div>
+          </div>
+          <a href="#" class="btn locationbtn">View all</a>
+        </section>
+        <!-- --------------------------------start conections---------------------------------------------------- -->
+        <section class="connections">
+          <div class="conectionscontent">
+            <h2 class="conectionstitle">Let's Stay in Touch</h2>
+            <p class="conectionscaption">
+              Get travel planning ideas, helpful tips, and stories from our
+              visitors delivered right to your inbox.
+            </p>
+            <div class="conectionsimgbox">
+              <form class="conectionsform">
+                <img
+                  src="images/svg-icons/email.svg"
+                  class="conectionsemailicon"
+                />
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="conectionsinput"
+                />
+                <button class="conectionssubmit">
+                  <img src="images/svg-icons/send.svg" />
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="conectionsbanner">
+            <img src="images/tent.png" class="conectionsimg" />
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="scroll">
+          <img src="images/svg-icons/arrow-top.svg" />
+        </a>
+        <div class="footercontainer">
+          <div class="fleftsection">
+            <div class="footrecontent">
+              <h2 class="footertitle">
+                Hipcamp is everywhere you want to camp.
+              </h2>
+              <p class="footercontentdescription">
+                Discover unique experiences on ranches, nature preserves, farms,
+                vineyards, and public campgrounds across the U.S. Book tent
+                camping, treehouses, cabins, yurts, primitive backcountry sites,
+                car camping, airstreams, tiny houses, RV camping, glamping tents
+                and more.
+              </p>
+            </div>
+            <div class="footerapplication">
+              <h2 class="footertitle">Download Our App</h2>
+              <a href="#" class="footerapplicationlink">
+                <img src="images/app-store-apple.jpg" class="footerimgd" />
+              </a>
+              <a href="#" class="footerapplicationlink">
+                <img src="images/google-play.jpg" class="footerimgd" />
+              </a>
+            </div>
+          </div>
+          <div class="frightsection">
+            <div class="footercolum">
+              <h2 class="footertitle">Get to Know Us</h2>
+              <ul class="footerlist">
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">About Us</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink"
+                    >Rules & Reservation Policies</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Accessibility</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Media Cente</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Site Map</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footercolum">
+              <h2 class="footertitle">Plan with Us</h2>
+              <ul class="footerlist">
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Find Trip Inspiration</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink"
+                    >Build a Trip</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Buy a Pass</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Enter a Lottery</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footercolum">
+              <h2 class="footertitle">Let Us Help You</h2>
+              <ul class="footerlist">
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Your Account</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink"
+                    >Your Reservations</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Contact Us</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Help Center</a>
+                </li>
+                <li class="footerlistitem">
+                  <a href="#" class="footerlistlink">Submit Feedback</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerapplication footerapplicationmobile">
+            <h2 class="footertitle">Download Our App</h2>
+            <a href="#" class="footerapplicationlink">
+              <img src="images/app-store-apple.jpg" class="footerimgd" />
+            </a>
+            <a href="#" class="footerapplicationlink">
+              <img src="images/google-play.jpg" class="footerimgd" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="scripts/app.js"></script>
+  </body>
+</html>
+    
